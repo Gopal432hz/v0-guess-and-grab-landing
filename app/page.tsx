@@ -22,6 +22,9 @@ export default function LandingPage() {
           <Link href="#features" className="text-gray-300 hover:text-white transition-colors">
             Features
           </Link>
+          <Link href="#terms" className="text-gray-300 hover:text-white transition-colors">
+            Terms
+          </Link>
           <Link href="#faq" className="text-gray-300 hover:text-white transition-colors">
             FAQ
           </Link>
@@ -67,78 +70,11 @@ export default function LandingPage() {
               </div>
               <p className="text-xs text-gray-400 mt-2">Be the first to know when we launch. No spam, ever.</p>
             </div>
-
-            <div className="pt-6 flex flex-col sm:flex-row gap-4">
-              <Link href="#" className="flex items-center justify-center">
-                <Image
-                  src="/google-play-badge.png"
-                  alt="Get it on Google Play"
-                  width={180}
-                  height={53}
-                  className="h-auto"
-                />
-              </Link>
-              <Link href="#" className="flex items-center justify-center">
-                <Image
-                  src="/app-store-badge.png"
-                  alt="Download on the App Store"
-                  width={180}
-                  height={53}
-                  className="h-auto"
-                />
-              </Link>
-            </div>
           </div>
 
           <div className="md:w-1/2 mt-12 md:mt-0 z-10 flex justify-center">
             <div className="relative">
-              <Image
-                src="/phone-mockup.png"
-                alt="Guess and Grab App"
-                width={300}
-                height={600}
-                className="relative z-10"
-              />
-              <div className="absolute -right-16 top-20 bg-white/10 backdrop-blur-sm rounded-xl p-4 shadow-xl border border-white/20">
-                <div className="text-center">
-                  <h3 className="font-medium">iPhone 15 Pro</h3>
-                  <p className="text-sm text-gray-300">Guess the price</p>
-                  <div className="mt-2 flex justify-center gap-2">
-                    <Button
-                      variant="outline"
-                      className="text-xs h-8 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
-                    >
-                      $899
-                    </Button>
-                    <Button
-                      variant="outline"
-                      className="text-xs h-8 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
-                    >
-                      $999
-                    </Button>
-                  </div>
-                </div>
-              </div>
-              <div className="absolute -left-16 bottom-20 bg-white/10 backdrop-blur-sm rounded-xl p-4 shadow-xl border border-white/20">
-                <div className="text-center">
-                  <h3 className="font-medium">PS5 Slim</h3>
-                  <p className="text-sm text-gray-300">Guess the price</p>
-                  <div className="mt-2 flex justify-center gap-2">
-                    <Button
-                      variant="outline"
-                      className="text-xs h-8 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
-                    >
-                      $399
-                    </Button>
-                    <Button
-                      variant="outline"
-                      className="text-xs h-8 border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
-                    >
-                      $449
-                    </Button>
-                  </div>
-                </div>
-              </div>
+              <div className="relative w-[300px] h-[600px] bg-gray-800 rounded"></div>
             </div>
           </div>
         </div>
@@ -243,27 +179,6 @@ export default function LandingPage() {
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             Join thousands of smart shoppers who are already winning big on Guess and Grab.
           </p>
-
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="#" className="flex items-center justify-center">
-              <Image
-                src="/google-play-badge.png"
-                alt="Get it on Google Play"
-                width={200}
-                height={60}
-                className="h-auto"
-              />
-            </Link>
-            <Link href="#" className="flex items-center justify-center">
-              <Image
-                src="/app-store-badge.png"
-                alt="Download on the App Store"
-                width={200}
-                height={60}
-                className="h-auto"
-              />
-            </Link>
-          </div>
 
           <div className="mt-8">
             <Button className="bg-white text-black hover:bg-gray-200 flex items-center gap-2">
