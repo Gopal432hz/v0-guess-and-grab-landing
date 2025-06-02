@@ -90,7 +90,7 @@ export default function LandingPage() {
                 <span className="text-yellow-200">price prediction.</span>
               </h1>
               <p className="text-xl text-blue-100 max-w-md leading-relaxed">
-                A trusted platform where market insight meets opportunity. Test your expertise, predict with precision, and claim quality products.
+                A trusted platform where smart guesses—not luck—lead to real rewards. Test your insight, outsmart the rest, and grab premium products.
               </p>
 
               <div className="max-w-md">
