@@ -240,14 +240,6 @@ export default function LandingPage() {
                 </div>
               </div>
             </div>
-
-            <div className="text-center mt-16">
-              <Button className="bg-orange-600 hover:bg-orange-700 text-white px-10 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
-                onClick={openPopup}
-              >
-                Start Your Prediction Journey
-              </Button>
-            </div>
           </div>
         </section>
 
@@ -260,10 +252,10 @@ export default function LandingPage() {
             </p>
 
             <div className="mt-8">
-              <Button className="bg-orange-600 text-white hover:bg-orange-700 flex items-center gap-2 rounded-full px-8 py-4 text-xl shadow-lg hover:shadow-xl transition-all duration-300"
+              <Button className="bg-orange-500 hover:bg-orange-600 text-white flex items-center gap-2 rounded-full px-6 py-3 shadow-lg hover:shadow-xl transition-all duration-300"
                 onClick={openPopup}
               >
-                Download Now <ArrowRight className="h-5 w-5" />
+                Download App
               </Button>
             </div>
           </div>
