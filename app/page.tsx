@@ -16,7 +16,7 @@ export default function LandingPage() {
 
   return (
     <body className="bg-white m-0 p-0">
-      <div className="flex flex-col min-h-screen text-gray-900 font-sans">
+      <div className="flex flex-col min-h-screen text-gray-900 font-sans bg-white">
         {/* Header */}
         <header className="container mx-auto py-4 px-4 flex items-center justify-between bg-white border-b border-gray-100 sticky top-0 z-50">
           <div className="flex items-center">
