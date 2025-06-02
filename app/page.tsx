@@ -135,28 +135,34 @@ export default function LandingPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
-                <div className="w-14 h-14 bg-gradient-to-br from-purple-600 to-indigo-700 rounded-xl flex items-center justify-center mb-6">
-                  <span className="font-bold text-2xl text-white">1</span>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-purple-600 to-indigo-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <span className="font-bold text-2xl text-white">1</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 m-0">Download & Create</h3>
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Download & Create</h3>
                 <p className="text-gray-700 text-base">
                   Get the Guess & Grab app and create your profile to start your prediction journey.
                 </p>
               </div>
 
               <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
-                <div className="w-14 h-14 bg-gradient-to-br from-teal-600 to-cyan-700 rounded-xl flex items-center justify-center mb-6">
-                  <span className="font-bold text-2xl text-white">2</span>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-teal-600 to-cyan-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <span className="font-bold text-2xl text-white">2</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 m-0">Enter Challenges</h3>
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Enter Challenges</h3>
                 <p className="text-gray-600 text-base">Participate in daily challenges with a small entry fee. Each challenge features quality products waiting to be claimed.</p>
               </div>
 
               <div className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm">
-                <div className="w-14 h-14 bg-gradient-to-br from-pink-600 to-red-700 rounded-xl flex items-center justify-center mb-6">
-                  <span className="font-bold text-2xl text-white">3</span>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-pink-600 to-red-700 rounded-xl flex items-center justify-center flex-shrink-0">
+                    <span className="font-bold text-2xl text-white">3</span>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-800 m-0">Predict & Win</h3>
                 </div>
-                <h3 className="text-xl font-bold mb-3 text-gray-800">Predict & Win</h3>
                 <p className="text-gray-600 text-base">
                   Apply your market knowledge, make precise predictions, and claim products when you're right.
                 </p>
@@ -169,7 +175,7 @@ export default function LandingPage() {
         <section className="py-12 bg-gradient-to-br from-orange-300 to-red-300">
           <div className="container mx-auto px-4">
             <div className="text-center mb-8">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Chance to win exciting product !</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900">Chance to win exciting products !</h2>
             </div>
             <div className="flex space-x-6 py-4 auto-scroll-carousel">
               {[...productImages, ...productImages].map((imageSrc, index) => (
@@ -191,9 +197,6 @@ export default function LandingPage() {
           <div className="container mx-auto px-4">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">Why Choose Guess & Grab</h2>
-              <p className="text-gray-800 text-lg max-w-2xl mx-auto">
-                A trusted platform where market expertise meets opportunity. Not luck, not gambling—pure skill-based prediction.
-              </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-x-16 gap-y-12 max-w-5xl mx-auto">
