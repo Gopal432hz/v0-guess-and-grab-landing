@@ -10,16 +10,18 @@ import { useState } from "react"
 
 // Product image URLs - Updated to use the latest images from public/products
 const productImages = [
-  '/products/jonathan-borba-7-9SSmlVMcU-unsplash.jpg',
-  '/products/skiking-photos-BcK00MSvjSU-unsplash.jpg',
+  '/products/wesley-tingey-dKCKiC0BQtU-unsplash.jpg',
+  '/products/ben-iwara-tnfbre82_hc-unsplash.jpg',
+  '/products/kerde-severin-NVD_32BBZFE-unsplash.jpg',
+  '/products/natalie-kinnear-YaF3GeHmJ-Q-unsplash.jpg',
+  '/products/ingridi-alves-photograph-yePWDGPUWO0-unsplash.jpg',
+  '/products/brent-ninaber-C8gib_msapY-unsplash.jpg',
+  '/products/de-an-sun-b57RqS-nQ1c-unsplash.jpg',
   '/products/daniel-korpai-QhF3YGsDrYk-unsplash.jpg',
-  '/products/rutger-lanser-fjggW87EzYU-unsplash.jpg',
   '/products/jaime-marrero-CcKvxIPOg7o-unsplash.jpg',
   '/products/romson-preechawit-_k5Kc6CdnwM-unsplash.jpg',
-  '/products/dennis-brendel-YLNMXzXk8zs-unsplash.jpg',
   '/products/alexander-andrews-Wzs4-QEmCUQ-unsplash.jpg',
   '/products/shreesha-bhat-lz6z9GZu8hk-unsplash.jpg',
-  '/products/11724923545bh7rhwnnjzaaiesvokwhhvolgxyawo7np0rnjsxcckcdt1sebpte5wkk1puvmsh0ezpwda51wyxrrlbp0pfedvvxemphrqvadlma.webp',
 ];
 
 export default function LandingPage() {
@@ -171,12 +173,11 @@ export default function LandingPage() {
             </div>
             <div className="flex space-x-6 py-4 auto-scroll-carousel">
               {[...productImages, ...productImages].map((imageSrc, index) => (
-                <div key={index} className="flex-shrink-0 w-40 h-40 rounded-xl shadow-md overflow-hidden">
+                <div key={index} className="flex-shrink-0 w-40 h-40 rounded-xl shadow-md overflow-hidden relative">
                   <Image
                     src={imageSrc}
                     alt={`Product ${index % productImages.length + 1}`}
-                    width={160}
-                    height={160}
+                    layout="fill"
                     objectFit="cover"
                   />
                 </div>
