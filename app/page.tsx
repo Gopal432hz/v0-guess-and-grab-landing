@@ -78,7 +78,7 @@ export default function LandingPage() {
               <div className="max-w-md">
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Download Guess&Grab app</h2>
                 <div className="flex flex-col sm:flex-row gap-3 items-center">
-                  <div className="flex flex-1 rounded-full overflow-hidden bg-gray-50 items-center border border-gray-300 focus-within:border-orange-600 focus-within:border-b-2 transition-colors">
+                  <div className="flex flex-1 rounded-full overflow-hidden bg-gray-50 items-center border border-gray-300 focus-within:border-t-transparent focus-within:border-l-transparent focus-within:border-r-transparent focus-within:border-b-2 focus-within:border-orange-600 transition-colors relative">
                     <select className="bg-transparent text-gray-800 pl-4 pr-2 py-3 text-base focus:outline-none w-20 appearance-none border-r border-gray-300 flex-shrink-0" defaultValue="+91">
                       <option value="+1">🇺🇸 +1</option>
                       <option value="+44">🇬🇧 +44</option>
@@ -86,7 +86,7 @@ export default function LandingPage() {
                       <option value="+61">🇦🇺 +61</option>
                       <option value="+86">🇨🇳 +86</option>
                     </select>
-                    <Input type="tel" placeholder="Enter Mobile Number" className="bg-transparent text-gray-800 flex-1 px-4 py-3 text-base focus:outline-none! focus:ring-0! focus:ring-offset-0! focus:outline-transparent! focus:border-transparent! focus:shadow-none! placeholder-gray-500" style={{ outline: 'none', border: 'none', boxShadow: 'none' }} />
+                    <Input type="tel" placeholder="Enter Mobile Number" className="bg-transparent text-gray-800 flex-1 px-4 py-3 text-base focus:outline-none! focus:ring-0! focus:ring-offset-0! focus:outline-transparent! focus:border-transparent! focus:shadow-none! placeholder-gray-500 border-none" style={{ outline: 'none', border: 'none', boxShadow: 'none' }} />
                   </div>
                   <Button className="bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white whitespace-nowrap rounded-full px-6 py-3 text-lg shadow-lg hover:shadow-xl transition-all duration-300">
                     GET LINK
